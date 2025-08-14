@@ -1,4 +1,4 @@
-import { footerLinks, languages } from '@/appData'
+import { footerLinks } from '@/appData'
 import { socials } from '@/appData/personal'
 import Image from 'next/image'
 import LogoImage from '@/assets/images/ChatGPT_Image_Aug_10__2025__06_24_36_PM-removebg-preview.png'
