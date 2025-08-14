@@ -19,7 +19,7 @@
 }
 
 [data-theme='dark'] {
-  --p: #011627;
+  --p: #000000;
   --pc: #607b96;
   --s: #011221;
   --sc: #5565e8;
@@ -88,9 +88,9 @@
   --animate-blink: blink 0.8s ease-in-out infinite;
   --animate-fade-up: fade-up 0.3s ease-out 1;
 
-  --background-image-large-glow: url('../assets/images/bg-lg.svg');
+  --background-image-large-glow: url('../assets/images/bg-sm.svg');
   --background-image-small-glow: url('../assets/images/bg-sm.svg');
-  --background-image-skill-gradient: linear-gradient(to right, var(--p), #062b48, var(--p));
+  --background-image-skill-gradient: linear-gradient(to right, #000000, #000000, #000000);
 
   --background-position-large-glow-position: 110% 30%;
   --background-position-small-glow-position: 50% 600%;

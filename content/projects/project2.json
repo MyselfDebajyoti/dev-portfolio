@@ -1,9 +1,9 @@
 {
   "priority": 2,
-  "title": "Codevertiser",
-  "shortDescription": "A programming related article site to share my learnings",
+  "title": "NITRUTSAV 2024",
+  "shortDescription": "A MERN stack website for one of Eastern India's largest cultural festivals.",
   "cover": "https://res.cloudinary.com/dyvkdwzcj/image/upload/v1656970810/Codevertiser_xlxdje.png",
-  "livePreview": "https://example.com/beta",
-  "visitors": "8K Visitors",
-  "earned": "$400 Earned"
+  "livePreview": "https://www.nitrutsav.com/",
+  "githubLink": "https://github.com/MyselfDebajyoti/project-gryffindor",
+  "visitors": "8K Visitors"
 }

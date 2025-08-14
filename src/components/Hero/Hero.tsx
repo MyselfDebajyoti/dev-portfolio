@@ -7,14 +7,16 @@ import Ellipse from './Ellipse'
 
 const Hero = () => {
   const ellipseRef = useRotatingAnimation()
-  const role = useRoleSwitcher({ roles: ['FULLSTACK DEVELOPER', 'INDIE HACKER', 'SOLOPRENEUR'] })
+  const role = useRoleSwitcher({ roles: ['FULLSTACK DEV', 'FREELANCER', 'SOLOPRENEUR'] })
 
   return (
     <section className="bg-primary bg-small-glow bg-small-glow-position md:bg-large-glow-position lg:bg-large-glow min-h-[calc(dvh-4rem)] bg-no-repeat">
       <div className="mx-auto grid max-w-[1200px] grid-cols-1 items-center gap-4 px-4 pt-12 pb-10 md:grid-cols-2 lg:p-4">
-        <div className="flex min-h-48 flex-col justify-between lg:min-h-56 lg:max-w-[33.75rem]">
+        <div className="order-2 flex min-h-48 flex-col justify-between md:order-1 lg:min-h-56 lg:max-w-[33.75rem]">
           <h1>
-            <span className="text-neutral mb-2 block text-3xl font-bold">Hi - I'm John Doe</span>
+            <span className="text-neutral mb-2 block text-3xl font-bold">
+              Hey there - I'm Debajyoti Chatterjee
+            </span>
             <span className="text-accent block text-[1.75rem] font-bold">{role}</span>
           </h1>
 
@@ -38,15 +40,15 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="flex min-h-[18.75rem] items-center justify-center lg:min-h-[35rem]">
+        <div className="order-1 flex min-h-[18.75rem] items-center justify-center md:order-2 lg:min-h-[35rem]">
           <div className="text-accent relative size-56 sm:size-60 md:size-[20rem] lg:size-[25.75rem]">
             <Image
               src={HeroImage}
               fill={true}
               priority={true}
               sizes="(min-width: 1024px) 25.75rem, (min-width: 768px) 20rem, (min-width: 640px) 15rem, 14rem"
-              alt="John Doe - Full Stack Developer"
-              className="object-contain p-7"
+              alt="Debajyoti Chatterjee - Full Stack Developer"
+              className="rounded-full object-cover object-[center_1%] p-4"
             />
             <Ellipse
               ref={ellipseRef}

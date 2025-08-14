@@ -1,10 +1,11 @@
 'use client'
 
+import Image from 'next/image'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { useState } from 'react'
 import { BurgerIcon, CloseIcon } from '../../utils/icons'
-import Logo from './Logo'
+import LogoImage from '../../assets/images/ChatGPT_Image_Aug_10__2025__06_24_36_PM-removebg-preview.png'
 
 const navItems = [
   {
@@ -41,8 +42,14 @@ const Navbar = () => {
         ) : (
           <Link href="/">
             <div className="animate-fade-up text-primary-content relative flex items-center gap-3 transition-all duration-300 md:static">
-              <Logo />
-              <span className="text-primary-content">john_doe</span>
+              <Image
+                src={LogoImage}
+                alt="Debajyoti's Logo"
+                width={32}
+                height={32}
+                className="size-12"
+              />
+              <span className="text-primary-content">debajyoti_dev</span>
             </div>
           </Link>
         )}
