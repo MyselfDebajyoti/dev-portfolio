@@ -1,10 +1,13 @@
 {
   "priority": 1,
-  "title": "SNAPJINI-AI",
-  "shortDescription": "An automated Instagram posting tool for small hotels built with Next.js and Django that generates images and captions from simple user inputs.",
-  "cover": "https://res.cloudinary.com/dyvkdwzcj/image/upload/v1645090814/color-contrast_n598kw.png",
+  "title": "CRM and HRMS",
+  "shortDescription": "CRM and HRMS is a comprehensive platform designed to streamline customer relationship management and human resource management processes, enhancing efficiency and productivity. Currently in real world use by the company",
 
-  "githubLink": "https://github.com/MyselfDebajyoti/Cohort_Booking-Jini",
-  "type": "Client Work 🙍‍♂️",
-  "siteAge": "1 month old"
+  "cover": "https://res.cloudinary.com/dqqpbgrnp/image/upload/v1755267654/Screenshot_2025-08-15_195030_syxogh.png",
+
+  "livePreview": "https://crm-two-bice.vercel.app/",
+
+  "visitors": "Real world use",
+  "githubLink": "https://github.com/MyselfDebajyoti/CRM",
+  "earned": "45K INR"
 }

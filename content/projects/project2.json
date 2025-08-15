@@ -1,9 +1,10 @@
 {
   "priority": 2,
-  "title": "NITRUTSAV 2024",
-  "shortDescription": "A MERN stack website for one of Eastern India's largest cultural festivals.",
-  "cover": "https://res.cloudinary.com/dyvkdwzcj/image/upload/v1656970810/Codevertiser_xlxdje.png",
-  "livePreview": "https://www.nitrutsav.com/",
-  "githubLink": "https://github.com/MyselfDebajyoti/project-gryffindor",
-  "visitors": "8K Visitors"
+  "title": "SNAPJINI-AI",
+  "shortDescription": "An automated Instagram posting tool for small hotels built with Next.js and Django that generates images and captions from simple user inputs.",
+  "cover": "https://res.cloudinary.com/dyvkdwzcj/image/upload/v1645090814/color-contrast_n598kw.png",
+
+  "githubLink": "https://github.com/MyselfDebajyoti/Cohort_Booking-Jini",
+  "type": "Client Work 🙍‍♂️",
+  "siteAge": "1 month old"
 }

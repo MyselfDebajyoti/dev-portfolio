@@ -35,7 +35,7 @@ const Navbar = () => {
   }
 
   return (
-    <nav className="bg-primary border-border h-16 overflow-hidden border-b">
+    <nav className="bg-primary border-border fixed top-0 right-0 left-0 z-50 h-16 overflow-hidden border-b">
       <div className="mx-auto flex h-full w-dvw max-w-[1200px] items-center justify-between px-4 py-1">
         {isVisible ? (
           <div className="text-primary-content md:hidden">_menu</div>
@@ -65,7 +65,7 @@ const Navbar = () => {
         </div>
 
         <ul
-          className={`${isVisible ? 'flex' : 'hidden'} animate-fade-in bg-primary absolute top-16 left-0 z-10 h-dvh w-dvw flex-col md:static md:top-0 md:flex md:h-full md:w-[72%] md:flex-row lg:w-[70%]`}>
+          className={`${isVisible ? 'flex' : 'hidden'} animate-fade-in bg-primary/95 fixed top-16 left-0 z-50 h-[calc(100vh-4rem)] w-full flex-col backdrop-blur-sm md:static md:top-0 md:flex md:h-full md:w-[72%] md:flex-row md:bg-transparent md:backdrop-blur-none lg:w-[70%]`}>
           {navItems.map(({ label, href }) => (
             <li
               key={href}

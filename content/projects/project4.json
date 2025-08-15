@@ -1,12 +1,10 @@
 {
   "priority": 4,
-  "title": "CRM and HRMS",
-  "shortDescription": "CRM and HRMS is a comprehensive platform designed to streamline customer relationship management and human resource management processes, enhancing efficiency and productivity. Currently in real world use by the company",
-  "cover": "https://res.cloudinary.com/dyvkdwzcj/image/upload/v1598035107/pomodoro-clock_ctp2af.png",
-  "type": "New 🔥",
-  "livePreview": "https://crm-two-bice.vercel.app/",
+  "title": "NES 2025",
+  "shortDescription": "A website for the National Entrepreneurship Summit, the largest entrepreneurship summit in Odisha, organized by the Entrepreneurship Cell at NIT Rourkela to connect students with business leaders.",
+  "cover": "https://res.cloudinary.com/dqqpbgrnp/image/upload/v1755267753/Screenshot_2025-08-15_195208_nz7vti.png",
 
-  "visitors": "Real world use",
-  "githubLink": "https://github.com/MyselfDebajyoti/CRM",
-  "earned": "45K INR"
+  "livePreview": "https://nes.ecellnitrkl.in/",
+  "githubLink": "https://github.com/MyselfDebajyoti/project-heist",
+  "visitors": "3.8K Visitors"
 }

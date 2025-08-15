@@ -1,10 +1,9 @@
 {
   "priority": 3,
-  "title": "NES 2025",
-  "shortDescription": "A website for the National Entrepreneurship Summit, the largest entrepreneurship summit in Odisha, organized by the Entrepreneurship Cell at NIT Rourkela to connect students with business leaders.",
-  "cover": "https://res.cloudinary.com/dyvkdwzcj/image/upload/v1656971294/waitlist-template_qr4l9k.png",
-
-  "livePreview": "https://nes.ecellnitrkl.in/",
-  "githubLink": "https://github.com/MyselfDebajyoti/project-heist",
-  "visitors": "3.8K Visitors"
+  "title": "NITRUTSAV 2024",
+  "shortDescription": "A MERN stack website for one of Eastern India's largest cultural festivals.",
+  "cover": "https://res.cloudinary.com/dqqpbgrnp/image/upload/v1755267450/Screenshot_2025-08-15_185330_bgoh05.png",
+  "livePreview": "https://www.nitrutsav.com/",
+  "githubLink": "https://github.com/MyselfDebajyoti/project-gryffindor",
+  "visitors": "8K Visitors"
 }

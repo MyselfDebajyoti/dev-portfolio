@@ -23,6 +23,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: url,
   },
+  icons: {
+    icon: [
+      {
+        url: '/favicon.ico',
+        sizes: 'any',
+        type: 'image/x-icon',
+      },
+    ],
+  },
   openGraph: {
     title,
     description,
