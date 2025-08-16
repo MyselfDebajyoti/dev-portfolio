@@ -1,12 +1,15 @@
+'use client'
+
 import { footerLinks } from '@/appData'
 import { socials } from '@/appData/personal'
 import Image from 'next/image'
+import Link from 'next/link'
 import LogoImage from '@/assets/images/ChatGPT_Image_Aug_10__2025__06_24_36_PM-removebg-preview.png'
 
 const Footer = () => {
   return (
-    <footer className="bg-secondary rounded-t-5xl relative overflow-hidden px-6 py-8">
-      <div className="mx-auto max-w-[1200px]">
+    <footer className="bg-secondary rounded-t-5xl relative z-10 overflow-hidden px-6 py-8">
+      <div className="relative mx-auto max-w-[1200px]">
         {/* Top Section: Logo and Navigation */}
         <div className="mb-8 flex flex-col gap-8 md:flex-row md:items-center md:justify-between">
           <div className="flex items-center gap-2">
@@ -22,12 +25,23 @@ const Footer = () => {
 
           <div className="flex flex-wrap gap-6">
             {footerLinks.map((link) => (
-              <a
+              <Link
                 href={link.href}
                 key={link.href}
-                className="text-tertiary-content hover:text-neutral transition-colors duration-300">
+                className="text-tertiary-content hover:text-neutral relative z-20 transition-colors duration-300"
+                scroll={link.href.startsWith('#') ? false : true}
+                onClick={(e) => {
+                  if (link.href.startsWith('#')) {
+                    e.preventDefault()
+                    const targetId = link.href.substring(1)
+                    const element = document.getElementById(targetId)
+                    if (element) {
+                      element.scrollIntoView({ behavior: 'smooth' })
+                    }
+                  }
+                }}>
                 {link.title}
-              </a>
+              </Link>
             ))}
           </div>
         </div>
@@ -39,7 +53,9 @@ const Footer = () => {
               <li key={index}>
                 <a
                   href={item.href}
-                  className="text-neutral hover:text-neutral/50 transition-colors duration-300">
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-neutral hover:text-neutral/50 relative z-20 transition-colors duration-300">
                   {item.icon}
                 </a>
               </li>
