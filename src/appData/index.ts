@@ -66,9 +66,10 @@ export const projects = [
 // Service Data
 export const serviceData = [
   {
-    icon: JavaScriptIcon,
-    title: 'JavaScript Development',
-    shortDescription: 'Creating dynamic and interactive web applications using JavaScript.',
+    icon: SocketIcon,
+    title: 'Socket.io Real-Time Apps',
+    shortDescription:
+      'Creating dynamic and interactive web applications using Socket.io for real-time communication.',
   },
   {
     icon: ReactIcon,
@@ -91,9 +92,9 @@ export const serviceData = [
     shortDescription: 'Ensuring robust and maintainable code with TypeScript.',
   },
   {
-    icon: TailwindCSS,
-    title: 'Tailwind CSS Styling',
-    shortDescription: 'Designing beautiful and responsive interfaces with Tailwind CSS.',
+    icon: ExpressjsIcon,
+    title: 'Express.js Backend',
+    shortDescription: 'Developing RESTful APIs and server-side logic with Express.js.',
   },
 ]
 
@@ -140,10 +141,6 @@ export const footerLinks = [
   {
     title: 'Services',
     href: '#services',
-  },
-  {
-    title: 'Contact',
-    href: '#contact',
   },
 ]
 

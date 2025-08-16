@@ -1,13 +1,13 @@
 {
   "priority": 1,
-  "title": "CRM and HRMS",
+  "title": "CRM+HRMS",
   "shortDescription": "CRM and HRMS is a comprehensive platform designed to streamline customer relationship management and human resource management processes, enhancing efficiency and productivity. Currently in real world use by the company",
 
   "cover": "https://res.cloudinary.com/dqqpbgrnp/image/upload/v1755267654/Screenshot_2025-08-15_195030_syxogh.png",
 
   "livePreview": "https://crm-two-bice.vercel.app/",
 
-  "visitors": "Real world use",
+  "visitors": "Industry Use",
   "githubLink": "https://github.com/MyselfDebajyoti/CRM",
   "earned": "45K INR"
 }
