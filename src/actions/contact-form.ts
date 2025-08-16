@@ -203,15 +203,23 @@ ${message}
       console.error('SendGrid error:', error)
 
       // Log more detailed error information
+      // Type definition for SendGrid error response
+      interface SendGridError {
+        response: {
+          body: {
+            errors: Array<{ message: string; field: string; help?: string }>
+          }
+        }
+      }
+
       if (
         typeof error === 'object' &&
         error !== null &&
         'response' in error &&
-        typeof (error as any).response === 'object' &&
-        (error as any).response !== null &&
-        'body' in (error as any).response
+        (error as SendGridError).response?.body
       ) {
-        console.error('SendGrid error details:', (error as any).response.body)
+        const sendGridError = error as SendGridError
+        console.error('SendGrid error details:', sendGridError.response.body)
       }
 
       return {
