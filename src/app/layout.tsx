@@ -11,15 +11,15 @@ const firaCode = Fira_Code({ subsets: ['latin'], weight: ['300', '400', '500', '
 const title = 'Debajyoti Chatterjee | Full-Stack Web Developer in India'
 
 const description =
-  "Skilled full-stack web developer in Chicago. I build responsive, user-friendly websites with React, NextJS, and NodeJS. Let's bring your vision to life. Hire me today!"
+  "Skilled full-stack web developer in India. I build responsive, user-friendly websites with React, NextJS, and NodeJS. Let's bring your vision to life. Hire me today!"
 
-const url = process.env.NEXT_PUBLIC_SITE_URL
+const url = process.env.NEXT_PUBLIC_SITE_URL || 'https://dev-portfolio-mu-gules.vercel.app/'
 
 export const metadata: Metadata = {
   title,
   description,
   category: 'technology',
-  // metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL!),
+  metadataBase: new URL('https://dev-portfolio-mu-gules.vercel.app/'),
   alternates: {
     canonical: url,
   },
@@ -43,7 +43,6 @@ export const metadata: Metadata = {
     title,
     description,
     card: 'summary_large_image',
-    creator: '@Basit_Miyanji',
   },
 }
 
