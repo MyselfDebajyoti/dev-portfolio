@@ -70,10 +70,12 @@ const Navbar = () => {
             <li
               key={href}
               onClick={() => setIsVisible(false)}
-              className="border-border flex items-center border-b px-4 text-lg md:border-y-0 md:border-e md:text-base md:first:border-s md:last:ml-auto md:last:border-none md:last:px-0 lg:px-8">
+              className="border-border flex cursor-pointer items-center border-b px-4 text-lg md:border-y-0 md:border-e md:text-base md:first:border-s md:last:ml-auto md:last:border-none md:last:px-0 lg:px-8">
               <Link
                 href={href}
-                className={`text-primary-content hover:text-neutral w-full py-7 transition-all duration-150 md:py-0 ${pathname === href ? 'text-neutral cursor-text' : ''}`}>
+                className={`text-primary-content hover:text-neutral w-full cursor-pointer py-7 transition-all duration-150 md:py-0 ${
+                  pathname === href && href !== '/' ? 'text-neutral cursor-text' : ''
+                }`}>
                 {label}
               </Link>
             </li>

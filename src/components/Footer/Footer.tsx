@@ -29,10 +29,12 @@ const Footer = () => {
                 href={link.href}
                 key={link.href}
                 className="text-tertiary-content hover:text-neutral relative z-20 transition-colors duration-300"
-                scroll={link.href.startsWith('#') ? false : true}
+                scroll={false}
                 onClick={(e) => {
-                  if (link.href.startsWith('#')) {
-                    e.preventDefault()
+                  e.preventDefault()
+                  if (link.href === '/') {
+                    window.scrollTo({ top: 0, behavior: 'smooth' })
+                  } else if (link.href.startsWith('#')) {
                     const targetId = link.href.substring(1)
                     const element = document.getElementById(targetId)
                     if (element) {
